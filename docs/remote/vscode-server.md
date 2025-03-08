@@ -32,7 +32,7 @@ The CLI establishes a tunnel between a VS Code client and your remote machine. T
 The VS Code Server experience includes a few components:
 
 * The VS Code Server: Backend server that makes VS Code remote experiences possible.
-* [Remote - Tunnels extension](/docs/remote/tunnels.md): Automatically loaded in your local VS Code client, it facilitates the connection to the remote machine.
+* [Remote - Tunnels extension][def]: Automatically loaded in your local VS Code client, it facilitates the connection to the remote machine.
 
 ## Scenarios
 
@@ -69,7 +69,7 @@ You can explore the CLI's other commands by running `code -h`, and specifically 
 
 ### Extension commands
 
-As with the CLI, the VS Code Remote Tunnels extension has additional commands you can explore by opening the Command Palette (`F1`) in VS Code and typing **Remote Tunnels**. You may learn more in the [Remote Tunnels documentation](/docs/remote/tunnels.md).
+As with the CLI, the VS Code Remote Tunnels extension has additional commands you can explore by opening the Command Palette (`F1`) in VS Code and typing **Remote Tunnels**. You may learn more in the [Remote Tunnels documentation][def].
 
 ## Telemetry
 
@@ -117,3 +117,6 @@ Settings Sync requires authentication against a Settings Sync server. The corres
 If you have any issues or feedback, please file an issue in the [VS Code Remote GitHub repo](https://github.com/microsoft/vscode-remote-release/issues). When filing an issue, include verbose logging, which you can enable by launching the VS Code Server with the `-v` flag: `code -v tunnel`.
 
 You may filter just for VS Code Server issues with the [`code-server` label](https://github.com/microsoft/vscode-remote-release/issues?q=is%3Aissue+is%3Aopen+label%3Acode-server).
+
+
+[def]: /docs/remote/tunnels.md
