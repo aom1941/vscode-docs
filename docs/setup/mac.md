@@ -97,7 +97,7 @@ To manually add VS Code to your path:
 
     You can now type 'code .' in any folder to start editing files in that folder.
 
-## Updates
+### Updates
 
 VS Code ships monthly [releases](/updates) and supports auto-update when a new release is available. If you're prompted by VS Code, accept the newest update and it will get installed (you won't need to do anything else to get the latest bits).
 
